@@ -1,0 +1,413 @@
+[2023-11-04 13:59:16,767] {processor.py:163} INFO - Started process (PID=32) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 13:59:16,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 13:59:16,771] {logging_mixin.py:109} INFO - [2023-11-04 13:59:16,771] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 13:59:16,856] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 13:59:20,269] {logging_mixin.py:109} INFO - [2023-11-04 13:59:20,269] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.common.hooks.base_google.GoogleBaseHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:20,294] {logging_mixin.py:109} INFO - [2023-11-04 13:59:20,293] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.cloud_sql.CloudSQLHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:20,298] {logging_mixin.py:109} INFO - [2023-11-04 13:59:20,298] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.cloud_sql.CloudSQLDatabaseHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:20,795] {logging_mixin.py:109} INFO - [2023-11-04 13:59:20,795] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.bigquery.BigQueryHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:20,804] {logging_mixin.py:109} INFO - [2023-11-04 13:59:20,804] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.compute_ssh.ComputeEngineSSHHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:21,540] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.8/site-packages/azure/storage/common/_connection.py:82 SyntaxWarning: "is" with a literal. Did you mean "=="?
+[2023-11-04 13:59:22,768] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,768] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.common.hooks.base_google.GoogleBaseHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:22,773] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,773] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.cloud_sql.CloudSQLHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:22,779] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,779] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.cloud_sql.CloudSQLDatabaseHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:22,785] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,785] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.bigquery.BigQueryHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:22,792] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,792] {providers_manager.py:154} WARNING - Exception when importing 'airflow.providers.google.cloud.hooks.compute_ssh.ComputeEngineSSHHook' from 'apache-airflow-providers-google' package: module 'pyparsing' has no attribute 'downcaseTokens'
+[2023-11-04 13:59:22,823] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,823] {manager.py:496} INFO - Created Permission View: can edit on DAG:people-schema
+[2023-11-04 13:59:22,845] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,845] {manager.py:496} INFO - Created Permission View: can read on DAG:people-schema
+[2023-11-04 13:59:22,848] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,847] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 13:59:22,863] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,863] {dag.py:2417} INFO - Creating ORM DAG for people-schema
+[2023-11-04 13:59:22,877] {logging_mixin.py:109} INFO - [2023-11-04 13:59:22,877] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 13:59:22,898] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 6.141 seconds
+[2023-11-04 13:59:53,532] {processor.py:163} INFO - Started process (PID=118) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 13:59:53,535] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 13:59:53,537] {logging_mixin.py:109} INFO - [2023-11-04 13:59:53,537] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 13:59:53,622] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 13:59:53,641] {logging_mixin.py:109} INFO - [2023-11-04 13:59:53,641] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 13:59:53,670] {logging_mixin.py:109} INFO - [2023-11-04 13:59:53,670] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 13:59:53,689] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.163 seconds
+[2023-11-04 14:00:23,884] {processor.py:163} INFO - Started process (PID=183) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:00:23,887] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:00:23,888] {logging_mixin.py:109} INFO - [2023-11-04 14:00:23,888] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:00:23,942] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:00:23,956] {logging_mixin.py:109} INFO - [2023-11-04 14:00:23,956] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:00:23,976] {logging_mixin.py:109} INFO - [2023-11-04 14:00:23,976] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:00:23,987] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.108 seconds
+[2023-11-04 14:00:54,761] {processor.py:163} INFO - Started process (PID=232) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:00:54,763] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:00:54,765] {logging_mixin.py:109} INFO - [2023-11-04 14:00:54,765] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:00:54,817] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:00:54,830] {logging_mixin.py:109} INFO - [2023-11-04 14:00:54,830] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:00:54,856] {logging_mixin.py:109} INFO - [2023-11-04 14:00:54,855] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:00:54,870] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.114 seconds
+[2023-11-04 14:01:25,480] {processor.py:163} INFO - Started process (PID=288) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:01:25,483] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:01:25,485] {logging_mixin.py:109} INFO - [2023-11-04 14:01:25,485] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:01:25,565] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:01:25,580] {logging_mixin.py:109} INFO - [2023-11-04 14:01:25,579] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:01:25,604] {logging_mixin.py:109} INFO - [2023-11-04 14:01:25,604] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:01:25,616] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.145 seconds
+[2023-11-04 14:01:55,914] {processor.py:163} INFO - Started process (PID=338) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:01:55,916] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:01:55,918] {logging_mixin.py:109} INFO - [2023-11-04 14:01:55,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:01:55,969] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:01:55,982] {logging_mixin.py:109} INFO - [2023-11-04 14:01:55,982] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:01:56,001] {logging_mixin.py:109} INFO - [2023-11-04 14:01:56,001] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:01:56,012] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.103 seconds
+[2023-11-04 14:02:26,619] {processor.py:163} INFO - Started process (PID=387) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:02:26,623] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:02:26,624] {logging_mixin.py:109} INFO - [2023-11-04 14:02:26,624] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:02:26,675] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:02:26,689] {logging_mixin.py:109} INFO - [2023-11-04 14:02:26,688] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:02:26,708] {logging_mixin.py:109} INFO - [2023-11-04 14:02:26,708] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:02:26,719] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.107 seconds
+[2023-11-04 14:04:44,764] {processor.py:163} INFO - Started process (PID=33) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:04:44,769] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:04:44,773] {logging_mixin.py:109} INFO - [2023-11-04 14:04:44,772] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:04:44,878] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:04:44,913] {logging_mixin.py:109} INFO - [2023-11-04 14:04:44,913] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:04:44,946] {logging_mixin.py:109} INFO - [2023-11-04 14:04:44,946] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:04:44,956] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.202 seconds
+[2023-11-04 14:05:15,852] {processor.py:163} INFO - Started process (PID=81) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:05:15,855] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:05:15,856] {logging_mixin.py:109} INFO - [2023-11-04 14:05:15,856] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:05:15,907] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:05:15,919] {logging_mixin.py:109} INFO - [2023-11-04 14:05:15,919] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:05:15,951] {logging_mixin.py:109} INFO - [2023-11-04 14:05:15,951] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:05:15,962] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.118 seconds
+[2023-11-04 14:05:46,717] {processor.py:163} INFO - Started process (PID=138) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:05:46,719] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:05:46,721] {logging_mixin.py:109} INFO - [2023-11-04 14:05:46,721] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:05:46,775] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:05:46,789] {logging_mixin.py:109} INFO - [2023-11-04 14:05:46,789] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:05:46,818] {logging_mixin.py:109} INFO - [2023-11-04 14:05:46,818] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:05:46,833] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.123 seconds
+[2023-11-04 14:06:17,274] {processor.py:163} INFO - Started process (PID=187) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:06:17,277] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:06:17,278] {logging_mixin.py:109} INFO - [2023-11-04 14:06:17,278] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:06:17,336] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:06:17,349] {logging_mixin.py:109} INFO - [2023-11-04 14:06:17,349] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:06:17,368] {logging_mixin.py:109} INFO - [2023-11-04 14:06:17,368] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:06:17,378] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.110 seconds
+[2023-11-04 14:06:47,725] {processor.py:163} INFO - Started process (PID=236) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:06:47,727] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:06:47,728] {logging_mixin.py:109} INFO - [2023-11-04 14:06:47,728] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:06:47,783] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:06:47,795] {logging_mixin.py:109} INFO - [2023-11-04 14:06:47,795] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:06:47,815] {logging_mixin.py:109} INFO - [2023-11-04 14:06:47,815] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:06:47,826] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.106 seconds
+[2023-11-04 14:07:18,127] {processor.py:163} INFO - Started process (PID=293) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:07:18,130] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:07:18,131] {logging_mixin.py:109} INFO - [2023-11-04 14:07:18,131] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:07:18,191] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:07:18,209] {logging_mixin.py:109} INFO - [2023-11-04 14:07:18,209] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:07:18,229] {logging_mixin.py:109} INFO - [2023-11-04 14:07:18,229] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:07:18,240] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.119 seconds
+[2023-11-04 14:07:48,815] {processor.py:163} INFO - Started process (PID=341) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:07:48,818] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:07:48,820] {logging_mixin.py:109} INFO - [2023-11-04 14:07:48,820] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:07:48,878] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:07:48,893] {logging_mixin.py:109} INFO - [2023-11-04 14:07:48,893] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:07:48,914] {logging_mixin.py:109} INFO - [2023-11-04 14:07:48,914] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:07:48,927] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.118 seconds
+[2023-11-04 14:08:19,120] {processor.py:163} INFO - Started process (PID=398) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:08:19,133] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:08:19,146] {logging_mixin.py:109} INFO - [2023-11-04 14:08:19,145] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:08:19,223] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:08:19,239] {logging_mixin.py:109} INFO - [2023-11-04 14:08:19,239] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:08:19,262] {logging_mixin.py:109} INFO - [2023-11-04 14:08:19,261] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:08:19,276] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.161 seconds
+[2023-11-04 14:08:49,376] {processor.py:163} INFO - Started process (PID=447) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:08:49,380] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:08:49,381] {logging_mixin.py:109} INFO - [2023-11-04 14:08:49,381] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:08:49,452] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:08:49,467] {logging_mixin.py:109} INFO - [2023-11-04 14:08:49,467] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:08:49,501] {logging_mixin.py:109} INFO - [2023-11-04 14:08:49,501] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:08:49,514] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.143 seconds
+[2023-11-04 14:09:19,859] {processor.py:163} INFO - Started process (PID=496) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:09:19,861] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:09:19,863] {logging_mixin.py:109} INFO - [2023-11-04 14:09:19,863] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:09:19,919] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:09:19,932] {logging_mixin.py:109} INFO - [2023-11-04 14:09:19,932] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:09:19,951] {logging_mixin.py:109} INFO - [2023-11-04 14:09:19,951] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:09:19,962] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.110 seconds
+[2023-11-04 14:09:50,263] {processor.py:163} INFO - Started process (PID=553) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:09:50,269] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:09:50,271] {logging_mixin.py:109} INFO - [2023-11-04 14:09:50,271] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:09:50,345] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:09:50,361] {logging_mixin.py:109} INFO - [2023-11-04 14:09:50,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:09:50,384] {logging_mixin.py:109} INFO - [2023-11-04 14:09:50,383] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:09:50,400] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.147 seconds
+[2023-11-04 14:10:20,557] {processor.py:163} INFO - Started process (PID=602) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:10:20,559] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:10:20,561] {logging_mixin.py:109} INFO - [2023-11-04 14:10:20,561] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:10:20,614] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:10:20,627] {logging_mixin.py:109} INFO - [2023-11-04 14:10:20,627] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:10:20,645] {logging_mixin.py:109} INFO - [2023-11-04 14:10:20,645] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:10:20,657] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.105 seconds
+[2023-11-04 14:11:48,030] {processor.py:163} INFO - Started process (PID=34) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:11:48,038] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:11:48,044] {logging_mixin.py:109} INFO - [2023-11-04 14:11:48,044] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:11:48,147] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:11:48,166] {logging_mixin.py:109} INFO - [2023-11-04 14:11:48,166] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:11:48,193] {logging_mixin.py:109} INFO - [2023-11-04 14:11:48,193] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:11:48,206] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.188 seconds
+[2023-11-04 14:12:19,048] {processor.py:163} INFO - Started process (PID=82) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:12:19,051] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:12:19,052] {logging_mixin.py:109} INFO - [2023-11-04 14:12:19,052] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:12:19,111] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:12:19,127] {logging_mixin.py:109} INFO - [2023-11-04 14:12:19,126] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:12:19,151] {logging_mixin.py:109} INFO - [2023-11-04 14:12:19,151] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:12:19,167] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.126 seconds
+[2023-11-04 14:12:49,461] {processor.py:163} INFO - Started process (PID=139) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:12:49,465] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:12:49,466] {logging_mixin.py:109} INFO - [2023-11-04 14:12:49,466] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:12:49,526] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:12:49,541] {logging_mixin.py:109} INFO - [2023-11-04 14:12:49,541] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:12:49,564] {logging_mixin.py:109} INFO - [2023-11-04 14:12:49,564] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:12:49,578] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.123 seconds
+[2023-11-04 14:13:19,832] {processor.py:163} INFO - Started process (PID=188) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:13:19,834] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:13:19,836] {logging_mixin.py:109} INFO - [2023-11-04 14:13:19,836] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:13:19,889] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:13:19,902] {logging_mixin.py:109} INFO - [2023-11-04 14:13:19,902] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:13:19,923] {logging_mixin.py:109} INFO - [2023-11-04 14:13:19,923] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:13:19,933] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.106 seconds
+[2023-11-04 14:13:50,421] {processor.py:163} INFO - Started process (PID=238) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:13:50,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:13:50,425] {logging_mixin.py:109} INFO - [2023-11-04 14:13:50,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:13:50,485] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:13:50,500] {logging_mixin.py:109} INFO - [2023-11-04 14:13:50,500] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:13:50,523] {logging_mixin.py:109} INFO - [2023-11-04 14:13:50,522] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:13:50,537] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.121 seconds
+[2023-11-04 14:14:20,683] {processor.py:163} INFO - Started process (PID=295) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:14:20,686] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:14:20,688] {logging_mixin.py:109} INFO - [2023-11-04 14:14:20,688] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:14:20,745] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:14:20,759] {logging_mixin.py:109} INFO - [2023-11-04 14:14:20,759] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:14:20,780] {logging_mixin.py:109} INFO - [2023-11-04 14:14:20,780] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:14:20,791] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.115 seconds
+[2023-11-04 14:14:50,871] {processor.py:163} INFO - Started process (PID=344) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:14:50,874] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:14:50,876] {logging_mixin.py:109} INFO - [2023-11-04 14:14:50,876] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:14:50,939] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:14:50,952] {logging_mixin.py:109} INFO - [2023-11-04 14:14:50,952] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:14:50,971] {logging_mixin.py:109} INFO - [2023-11-04 14:14:50,971] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:14:50,982] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.116 seconds
+[2023-11-04 14:15:21,416] {processor.py:163} INFO - Started process (PID=393) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:15:21,419] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:15:21,421] {logging_mixin.py:109} INFO - [2023-11-04 14:15:21,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:15:21,473] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:15:21,486] {logging_mixin.py:109} INFO - [2023-11-04 14:15:21,486] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:15:21,505] {logging_mixin.py:109} INFO - [2023-11-04 14:15:21,505] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:15:21,515] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.106 seconds
+[2023-11-04 14:15:51,739] {processor.py:163} INFO - Started process (PID=450) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:15:51,741] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:15:51,743] {logging_mixin.py:109} INFO - [2023-11-04 14:15:51,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:15:51,798] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:15:51,812] {logging_mixin.py:109} INFO - [2023-11-04 14:15:51,812] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:15:51,830] {logging_mixin.py:109} INFO - [2023-11-04 14:15:51,830] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:15:51,841] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.107 seconds
+[2023-11-04 14:16:22,084] {processor.py:163} INFO - Started process (PID=499) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:16:22,087] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:16:22,088] {logging_mixin.py:109} INFO - [2023-11-04 14:16:22,088] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:16:22,141] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:16:22,154] {logging_mixin.py:109} INFO - [2023-11-04 14:16:22,154] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:16:22,173] {logging_mixin.py:109} INFO - [2023-11-04 14:16:22,172] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:16:22,183] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.104 seconds
+[2023-11-04 14:16:52,662] {processor.py:163} INFO - Started process (PID=555) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:16:52,665] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:16:52,667] {logging_mixin.py:109} INFO - [2023-11-04 14:16:52,667] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:16:52,732] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:16:52,753] {logging_mixin.py:109} INFO - [2023-11-04 14:16:52,753] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:16:52,782] {logging_mixin.py:109} INFO - [2023-11-04 14:16:52,782] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:16:52,798] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.142 seconds
+[2023-11-04 14:17:23,165] {processor.py:163} INFO - Started process (PID=605) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:17:23,168] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:17:23,170] {logging_mixin.py:109} INFO - [2023-11-04 14:17:23,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:17:23,224] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:17:23,237] {logging_mixin.py:109} INFO - [2023-11-04 14:17:23,237] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:17:23,256] {logging_mixin.py:109} INFO - [2023-11-04 14:17:23,255] {dag.py:2937} INFO - Setting next_dagrun for people-schema to 2023-07-01T00:00:00+00:00
+[2023-11-04 14:17:23,266] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.107 seconds
+[2023-11-04 14:17:53,406] {processor.py:163} INFO - Started process (PID=654) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:17:53,409] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:17:53,411] {logging_mixin.py:109} INFO - [2023-11-04 14:17:53,410] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:17:53,465] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:17:53,478] {logging_mixin.py:109} INFO - [2023-11-04 14:17:53,478] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:17:53,497] {logging_mixin.py:109} INFO - [2023-11-04 14:17:53,497] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:17:53,507] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.106 seconds
+[2023-11-04 14:18:23,536] {processor.py:163} INFO - Started process (PID=703) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:18:23,539] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:18:23,540] {logging_mixin.py:109} INFO - [2023-11-04 14:18:23,540] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:18:23,607] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:18:23,621] {logging_mixin.py:109} INFO - [2023-11-04 14:18:23,620] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:18:23,640] {logging_mixin.py:109} INFO - [2023-11-04 14:18:23,639] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:18:23,651] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.119 seconds
+[2023-11-04 14:18:53,814] {processor.py:163} INFO - Started process (PID=760) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:18:53,817] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:18:53,819] {logging_mixin.py:109} INFO - [2023-11-04 14:18:53,819] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:18:53,871] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:18:53,885] {logging_mixin.py:109} INFO - [2023-11-04 14:18:53,885] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:18:53,903] {logging_mixin.py:109} INFO - [2023-11-04 14:18:53,903] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:18:53,914] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.111 seconds
+[2023-11-04 14:19:24,106] {processor.py:163} INFO - Started process (PID=809) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:19:24,109] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:19:24,111] {logging_mixin.py:109} INFO - [2023-11-04 14:19:24,111] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:19:24,173] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:19:24,188] {logging_mixin.py:109} INFO - [2023-11-04 14:19:24,187] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:19:24,215] {logging_mixin.py:109} INFO - [2023-11-04 14:19:24,214] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:19:24,247] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.148 seconds
+[2023-11-04 14:19:54,589] {processor.py:163} INFO - Started process (PID=865) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:19:54,592] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:19:54,594] {logging_mixin.py:109} INFO - [2023-11-04 14:19:54,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:19:54,666] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:19:54,682] {logging_mixin.py:109} INFO - [2023-11-04 14:19:54,682] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:19:54,704] {logging_mixin.py:109} INFO - [2023-11-04 14:19:54,704] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:19:54,716] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.136 seconds
+[2023-11-04 14:20:04,357] {processor.py:163} INFO - Started process (PID=889) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:04,360] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:20:04,361] {logging_mixin.py:109} INFO - [2023-11-04 14:20:04,361] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:04,443] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:04,458] {logging_mixin.py:109} INFO - [2023-11-04 14:20:04,458] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:20:04,480] {logging_mixin.py:109} INFO - [2023-11-04 14:20:04,480] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:20:04,497] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.144 seconds
+[2023-11-04 14:20:04,904] {processor.py:163} INFO - Started process (PID=896) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:04,906] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:20:04,908] {logging_mixin.py:109} INFO - [2023-11-04 14:20:04,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:04,971] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:04,988] {logging_mixin.py:109} INFO - [2023-11-04 14:20:04,987] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:20:05,007] {logging_mixin.py:109} INFO - [2023-11-04 14:20:05,007] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:20:05,022] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.124 seconds
+[2023-11-04 14:20:35,070] {processor.py:163} INFO - Started process (PID=940) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:35,072] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:20:35,075] {logging_mixin.py:109} INFO - [2023-11-04 14:20:35,075] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:35,154] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:20:35,172] {logging_mixin.py:109} INFO - [2023-11-04 14:20:35,172] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:20:35,201] {logging_mixin.py:109} INFO - [2023-11-04 14:20:35,201] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:20:35,214] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.150 seconds
+[2023-11-04 14:21:05,902] {processor.py:163} INFO - Started process (PID=995) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:21:05,904] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:21:05,907] {logging_mixin.py:109} INFO - [2023-11-04 14:21:05,906] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:21:05,958] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:21:05,971] {logging_mixin.py:109} INFO - [2023-11-04 14:21:05,971] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:21:05,990] {logging_mixin.py:109} INFO - [2023-11-04 14:21:05,990] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:21:06,000] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.105 seconds
+[2023-11-04 14:21:36,392] {processor.py:163} INFO - Started process (PID=1046) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:21:36,395] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:21:36,396] {logging_mixin.py:109} INFO - [2023-11-04 14:21:36,396] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:21:36,453] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:21:36,470] {logging_mixin.py:109} INFO - [2023-11-04 14:21:36,469] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:21:36,489] {logging_mixin.py:109} INFO - [2023-11-04 14:21:36,489] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:21:36,499] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.111 seconds
+[2023-11-04 14:22:06,964] {processor.py:163} INFO - Started process (PID=1099) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:22:06,967] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:22:06,968] {logging_mixin.py:109} INFO - [2023-11-04 14:22:06,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:22:07,048] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:22:07,076] {logging_mixin.py:109} INFO - [2023-11-04 14:22:07,076] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:22:07,097] {logging_mixin.py:109} INFO - [2023-11-04 14:22:07,097] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:22:07,107] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.148 seconds
+[2023-11-04 14:22:37,147] {processor.py:163} INFO - Started process (PID=1138) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:22:37,149] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:22:37,150] {logging_mixin.py:109} INFO - [2023-11-04 14:22:37,150] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:22:37,203] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:22:37,215] {logging_mixin.py:109} INFO - [2023-11-04 14:22:37,215] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:22:37,234] {logging_mixin.py:109} INFO - [2023-11-04 14:22:37,234] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:22:37,245] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.103 seconds
+[2023-11-04 14:23:07,412] {processor.py:163} INFO - Started process (PID=1187) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:23:07,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:23:07,415] {logging_mixin.py:109} INFO - [2023-11-04 14:23:07,415] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:23:07,467] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:23:07,480] {logging_mixin.py:109} INFO - [2023-11-04 14:23:07,479] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:23:07,499] {logging_mixin.py:109} INFO - [2023-11-04 14:23:07,499] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:23:07,510] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.103 seconds
+[2023-11-04 14:23:38,010] {processor.py:163} INFO - Started process (PID=1244) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:23:38,012] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:23:38,013] {logging_mixin.py:109} INFO - [2023-11-04 14:23:38,013] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:23:38,066] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:23:38,080] {logging_mixin.py:109} INFO - [2023-11-04 14:23:38,080] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:23:38,101] {logging_mixin.py:109} INFO - [2023-11-04 14:23:38,100] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:23:38,114] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.110 seconds
+[2023-11-04 14:24:08,902] {processor.py:163} INFO - Started process (PID=1293) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:24:08,905] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:24:08,906] {logging_mixin.py:109} INFO - [2023-11-04 14:24:08,906] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:24:08,958] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:24:08,970] {logging_mixin.py:109} INFO - [2023-11-04 14:24:08,970] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:24:08,989] {logging_mixin.py:109} INFO - [2023-11-04 14:24:08,989] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:24:08,999] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.102 seconds
+[2023-11-04 14:24:39,753] {processor.py:163} INFO - Started process (PID=1350) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:24:39,755] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:24:39,757] {logging_mixin.py:109} INFO - [2023-11-04 14:24:39,757] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:24:39,812] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:24:39,826] {logging_mixin.py:109} INFO - [2023-11-04 14:24:39,826] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:24:39,848] {logging_mixin.py:109} INFO - [2023-11-04 14:24:39,848] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:24:39,858] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.111 seconds
+[2023-11-04 14:25:10,100] {processor.py:163} INFO - Started process (PID=1399) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:25:10,103] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:25:10,104] {logging_mixin.py:109} INFO - [2023-11-04 14:25:10,104] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:25:10,166] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:25:10,185] {logging_mixin.py:109} INFO - [2023-11-04 14:25:10,185] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:25:10,206] {logging_mixin.py:109} INFO - [2023-11-04 14:25:10,206] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:25:10,216] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.121 seconds
+[2023-11-04 14:25:40,450] {processor.py:163} INFO - Started process (PID=1448) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:25:40,454] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:25:40,456] {logging_mixin.py:109} INFO - [2023-11-04 14:25:40,456] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:25:40,509] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:25:40,522] {logging_mixin.py:109} INFO - [2023-11-04 14:25:40,522] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:25:40,541] {logging_mixin.py:109} INFO - [2023-11-04 14:25:40,541] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:25:40,552] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.109 seconds
+[2023-11-04 14:26:10,661] {processor.py:163} INFO - Started process (PID=1505) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:26:10,663] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:26:10,665] {logging_mixin.py:109} INFO - [2023-11-04 14:26:10,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:26:10,718] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:26:10,732] {logging_mixin.py:109} INFO - [2023-11-04 14:26:10,732] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:26:10,751] {logging_mixin.py:109} INFO - [2023-11-04 14:26:10,751] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:26:10,765] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.110 seconds
+[2023-11-04 14:26:41,010] {processor.py:163} INFO - Started process (PID=1555) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:26:41,020] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:26:41,027] {logging_mixin.py:109} INFO - [2023-11-04 14:26:41,027] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:26:41,138] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:26:41,166] {logging_mixin.py:109} INFO - [2023-11-04 14:26:41,166] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:26:41,205] {logging_mixin.py:109} INFO - [2023-11-04 14:26:41,205] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:26:41,227] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.232 seconds
+[2023-11-04 14:28:07,033] {processor.py:163} INFO - Started process (PID=34) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:28:07,037] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:28:07,039] {logging_mixin.py:109} INFO - [2023-11-04 14:28:07,039] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:28:07,119] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:28:07,135] {logging_mixin.py:109} INFO - [2023-11-04 14:28:07,135] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:28:07,156] {logging_mixin.py:109} INFO - [2023-11-04 14:28:07,156] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:28:07,167] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.139 seconds
+[2023-11-04 14:28:37,809] {processor.py:163} INFO - Started process (PID=84) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:28:37,811] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:28:37,813] {logging_mixin.py:109} INFO - [2023-11-04 14:28:37,813] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:28:37,869] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:28:37,887] {logging_mixin.py:109} INFO - [2023-11-04 14:28:37,887] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:28:37,917] {logging_mixin.py:109} INFO - [2023-11-04 14:28:37,917] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:28:37,926] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.122 seconds
+[2023-11-04 14:29:08,175] {processor.py:163} INFO - Started process (PID=141) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:29:08,177] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:29:08,179] {logging_mixin.py:109} INFO - [2023-11-04 14:29:08,179] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:29:08,236] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:29:08,250] {logging_mixin.py:109} INFO - [2023-11-04 14:29:08,250] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:29:08,272] {logging_mixin.py:109} INFO - [2023-11-04 14:29:08,272] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:29:08,284] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.117 seconds
+[2023-11-04 14:29:38,661] {processor.py:163} INFO - Started process (PID=190) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:29:38,664] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:29:38,665] {logging_mixin.py:109} INFO - [2023-11-04 14:29:38,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:29:38,725] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:29:38,738] {logging_mixin.py:109} INFO - [2023-11-04 14:29:38,737] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:29:38,760] {logging_mixin.py:109} INFO - [2023-11-04 14:29:38,760] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:29:38,774] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.118 seconds
+[2023-11-04 14:30:09,434] {processor.py:163} INFO - Started process (PID=239) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:30:09,437] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:30:09,438] {logging_mixin.py:109} INFO - [2023-11-04 14:30:09,438] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:30:09,494] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:30:09,508] {logging_mixin.py:109} INFO - [2023-11-04 14:30:09,508] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:30:09,527] {logging_mixin.py:109} INFO - [2023-11-04 14:30:09,527] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:30:09,540] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.111 seconds
+[2023-11-04 14:30:39,709] {processor.py:163} INFO - Started process (PID=295) to work on /opt/airflow/dags/people-schema.py
+[2023-11-04 14:30:39,712] {processor.py:642} INFO - Processing file /opt/airflow/dags/people-schema.py for tasks to queue
+[2023-11-04 14:30:39,714] {logging_mixin.py:109} INFO - [2023-11-04 14:30:39,714] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:30:39,781] {processor.py:654} INFO - DAG(s) dict_keys(['people-schema']) retrieved from /opt/airflow/dags/people-schema.py
+[2023-11-04 14:30:39,801] {logging_mixin.py:109} INFO - [2023-11-04 14:30:39,801] {dag.py:2398} INFO - Sync 1 DAGs
+[2023-11-04 14:30:39,840] {logging_mixin.py:109} INFO - [2023-11-04 14:30:39,839] {dag.py:2937} INFO - Setting next_dagrun for people-schema to None
+[2023-11-04 14:30:39,859] {processor.py:171} INFO - Processing /opt/airflow/dags/people-schema.py took 0.158 seconds
