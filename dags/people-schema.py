@@ -22,7 +22,7 @@ def init_schema():
     class People(base_class):
         __tablename__ = 'people'
         __table_args__ = (
-            UniqueConstraint('surname', 'middle_name', 'middle_name', name='uix_sur_name_middle'),
+            UniqueConstraint('surname', 'name', 'middle_name', name='uix_sur_name_middle'),
             {'schema': 'public'}
         )
                         
