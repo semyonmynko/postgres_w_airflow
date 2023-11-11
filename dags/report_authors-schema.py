@@ -19,20 +19,20 @@ def init_schema():
     meta = MetaData(db_engine).reflect()
     base_class = declarative_base(metadata=meta)
 
-    class Participants(base_class):
-        __tablename__ = 'participants'
+    class Report_authors(base_class):
+        __tablename__ = 'report_authors'
         __table_args__ = (
-            UniqueConstraint('event_id', 'person_id', name='uix_event_person'),
+            UniqueConstraint('report_id', 'participant_id', name='uix_report_part'),
             {'schema': 'public'}
         )
                         
         id = Column('id', Integer, primary_key=True, autoincrement=True)
-        event_id = Column('event_id', Integer)
-        person_id = Column('person_id', Integer)
+        report_id = Column('report_id', Integer)
+        participant_id = Column('participant_id', Integer)
         
 
-    if not db_engine.dialect.has_table(db_engine, Participants.__tablename__):
-        Participants.metadata.create_all(bind=db_engine)
+    if not db_engine.dialect.has_table(db_engine, Report_authors.__tablename__):
+        Report_authors.metadata.create_all(bind=db_engine)
         db_session.commit()
 
     db_session.close()
@@ -40,7 +40,7 @@ def init_schema():
 
 
 dag_params = {
-    'dag_id': 'participants-schema',
+    'dag_id': 'report_authors-schema',
     'start_date': datetime(2023, 7, 1),
     'schedule_interval': '@once',
 }
