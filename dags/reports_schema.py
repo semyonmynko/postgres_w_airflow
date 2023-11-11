@@ -25,12 +25,12 @@ def init_schema():
             UniqueConstraint('event_id', 'section_id', 'title', 'presentation',
                              'report_theses', 'report_file', 'publish_permission',
                              'license_agreement',
-                              name='uix_event_section_title_presentation_report_report_publish_license'),
+                              name='uix_event_section_title_presentation'),
             {'schema': 'public'}
         )
                         
         id = Column('id', Integer, primary_key=True, autoincrement=True)
-        event_id = Column('surname', Integer)
+        event_id = Column('event_id', Integer)
         section_id = Column('section_id', Integer)
         title = Column('title', String)
         presentation = Column('presentation', LargeBinary)
