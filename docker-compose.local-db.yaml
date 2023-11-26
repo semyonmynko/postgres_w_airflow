@@ -9,6 +9,15 @@ services:
       - ./.env
     ports:
       - "15432:5432"
+  adminer:
+    image: adminer:latest
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+      ADMINER_DEFAULT_USERNAME: datalake
+      ADMINER_DEFAULT_PASSWORD: datalake
+    ports:
+      - 8081:8080
+    
 
 volumes:
   postgres_data:
