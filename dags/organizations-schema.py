@@ -22,11 +22,11 @@ def init_schema():
     class Organizations(base_class):
         __tablename__ = 'organizations'
         __table_args__ = (
-            UniqueConstraint('title', 'attribute', name='uix_title_attribute'),
+            UniqueConstraint('id', name='uix_orgs'),
             {'schema': 'public'}
         )
                         
-        id = Column('id', Integer, primary_key=True, autoincrement=True)
+        id = Column('id', Integer, primary_key=True)
         title = Column('title', String)
         attribute = Column('attribute', String)
         

@@ -6,5 +6,8 @@ RUN poetry export --without-hashes -f requirements.txt -o /tmp/requirements.txt
 RUN pip install -r /tmp/requirements.txt
 RUN pip install celery
 RUN pip install setuptools
+RUN pip install fast_bitrix24
+RUN pip install python-dotenv
+RUN pip install nest_asyncio
 
 COPY --chown=airflow:root dags /opt/airflow/dags
