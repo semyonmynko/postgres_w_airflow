@@ -27,7 +27,7 @@ def get_connections():
 
     return conns
 
-def fill_organizations():
+def fill_people():
   
     conns = get_connections()
 
