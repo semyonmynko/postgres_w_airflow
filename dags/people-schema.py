@@ -22,15 +22,15 @@ def init_schema():
     class People(base_class):
         __tablename__ = 'people'
         __table_args__ = (
-            UniqueConstraint('surname', 'name', 'middle_name', name='uix_sur_name_middle'),
+            UniqueConstraint('id', name='uix_sur_name_middle'),
             {'schema': 'public'}
         )
                         
-        id = Column('id', Integer, primary_key=True, autoincrement=True)
+        id = Column('id', Integer, primary_key=True)
         surname = Column('surname', String)
         name = Column('name', String)
         middle_name = Column('middle_name', String)
-        agreement = Column('agreement', LargeBinary)
+        agreement = Column('agreement', String)
         
 
     if not db_engine.dialect.has_table(db_engine, People.__tablename__):

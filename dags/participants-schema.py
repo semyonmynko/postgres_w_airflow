@@ -28,8 +28,7 @@ def init_schema():
                         
         id = Column('id', Integer, primary_key=True, autoincrement=True)
         event_id = Column('event_id', Integer)
-        person_id = Column('person_id', Integer)
-        
+        person_id = Column('person_id', Integer)        
 
     if not db_engine.dialect.has_table(db_engine, Participants.__tablename__):
         Participants.metadata.create_all(bind=db_engine)
