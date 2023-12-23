@@ -28,6 +28,9 @@ def init_schema():
                         
         id = Column('id', Integer, primary_key=True, autoincrement=True)
         title = Column('title', String)
+        start_date = Column('start_date', DateTime)
+        end_date = Column('end_date', DateTime)
+
         
 
     if not db_engine.dialect.has_table(db_engine, Conference.__tablename__):

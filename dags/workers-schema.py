@@ -22,15 +22,13 @@ def init_schema():
     class Workers(base_class):
         __tablename__ = 'workers'
         __table_args__ = (
-            UniqueConstraint('person_id', 'organization_id', 'start_date', 'end_date', name='uix_person_organization'),
+            UniqueConstraint('people_id', name='uix_person_organization'),
             {'schema': 'public'}
         )
                         
         id = Column('id', Integer, primary_key=True, autoincrement=True)
-        person_id = Column('person_id', Integer)
+        people_id = Column('people_id', Integer)
         organization_id = Column('organization_id', Integer)
-        start_date = Column('start_date', DateTime)
-        end_date = Column('end_date', DateTime)
 
     if not db_engine.dialect.has_table(db_engine, Workers.__tablename__):
         Workers.metadata.create_all(bind=db_engine)
