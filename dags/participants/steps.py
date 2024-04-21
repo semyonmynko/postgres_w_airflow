@@ -7,7 +7,7 @@ import nest_asyncio
 nest_asyncio.apply()
 import asyncio
 
-from conference.data_extractors import *
+from participants.data_extractors import *
 
 import logging
 logger = logging.getLogger("airflow.task")
@@ -27,22 +27,22 @@ def get_connections():
 
     return conns
 
-def fill_conference():
+def fill_participants():
   
     conns = get_connections()
 
     print('Getting data from CRM')
-    conference = asyncio.run(get_conference_list_async())
-    conference = conference.replace([np.nan], [None])
+    participants = asyncio.run(get_participants_list_async())
+    participants = participants.replace([np.nan], [None])
 
     print('Uploading to DB')
     
     conns['test']['hook'].insert_rows(
-        table="public.conference",
+        table="public.participants",
         replace=True,
-        target_fields=[name for name in conference.columns],
+        target_fields=[name for name in participants.columns],
         replace_index=['id'],
-        rows=[[cell for cell in row] for row in conference.values]
+        rows=[[cell for cell in row] for row in participants.values]
     )
 
     pass

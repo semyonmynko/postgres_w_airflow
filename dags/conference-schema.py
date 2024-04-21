@@ -26,7 +26,7 @@ def init_schema():
             {'schema': 'public'}
         )
                         
-        id = Column('id', Integer, primary_key=True, autoincrement=True)
+        id = Column('id', Integer, primary_key=True)
         title = Column('title', String)
         start_date = Column('start_date', DateTime)
         end_date = Column('end_date', DateTime)

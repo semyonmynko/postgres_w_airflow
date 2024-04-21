@@ -22,12 +22,12 @@ def init_schema():
     class Participants(base_class):
         __tablename__ = 'participants'
         __table_args__ = (
-            UniqueConstraint('event_id', 'person_id', name='uix_event_person'),
+            UniqueConstraint('conference_id', 'person_id', name='uix_event_person'),
             {'schema': 'public'}
         )
                         
-        id = Column('id', Integer, primary_key=True, autoincrement=True)
-        event_id = Column('event_id', Integer)
+        id = Column('id', Integer, primary_key=True)
+        conference_id = Column('conference_id', Integer)
         person_id = Column('person_id', Integer)        
 
     if not db_engine.dialect.has_table(db_engine, Participants.__tablename__):
